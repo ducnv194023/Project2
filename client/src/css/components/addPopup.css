@@ -1,0 +1,36 @@
+.add-item-bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000050;
+}
+
+.add-item-wrapper {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+
+.add-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.add-item-header h3 {
+  margin: 0;
+}
+
+.update-button {
+  display: flex;
+  justify-content: center;
+}

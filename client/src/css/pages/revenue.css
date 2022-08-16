@@ -1,0 +1,24 @@
+.select-time h3 {
+  margin-top: 0;
+}
+
+.select-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-time input[type="date"] {
+  border: 0;
+}
+
+.select-time button {
+  height: 32px;
+}
+
+.time-input {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 0 8px;
+  margin-bottom: 12px;
+}

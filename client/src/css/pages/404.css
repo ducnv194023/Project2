@@ -1,0 +1,29 @@
+.not-found-bg {
+  width: 100%;
+  height: calc(100% - 88px);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-page {
+  max-width: 450px;
+  text-align: center;
+}
+
+.not-found-page h3 {
+  font-size: 24px;
+}
+
+.not-found-page h3 span {
+  display: block;
+  font-size: 140px;
+  line-height: 0.8;
+  margin-bottom: -1rem;
+  color: #8ecae6; 
+}
+
+.not-found-page p {
+  margin: 30px;
+}
